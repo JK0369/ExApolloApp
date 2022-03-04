@@ -98,11 +98,6 @@ extension ViewController: UITableViewDelegate {
   }
 }
 
-enum ListSection: Int, CaseIterable {
-  case launches
-  case loading
-}
-
 final class LaunchListCell: UITableViewCell {
   enum Constants {
     static let imageSize = CGSize(width: 40, height: 40)
