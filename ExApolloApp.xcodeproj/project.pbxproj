@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14DCCB6B115827D675B0ADAD /* Pods_ExApolloApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F1810DD500AC0B8673C0BD2 /* Pods_ExApolloApp.framework */; };
 		C67261D227D1A4CB00E8B6C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67261D127D1A4CB00E8B6C3 /* AppDelegate.swift */; };
 		C67261D427D1A4CB00E8B6C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67261D327D1A4CB00E8B6C3 /* SceneDelegate.swift */; };
 		C67261D627D1A4CB00E8B6C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67261D527D1A4CB00E8B6C3 /* ViewController.swift */; };
 		C67261D927D1A4CB00E8B6C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67261D727D1A4CB00E8B6C3 /* Main.storyboard */; };
 		C67261DB27D1A4CD00E8B6C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67261DA27D1A4CD00E8B6C3 /* Assets.xcassets */; };
 		C67261DE27D1A4CD00E8B6C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67261DC27D1A4CD00E8B6C3 /* LaunchScreen.storyboard */; };
+		C67261EB27D1A62200E8B6C3 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = C67261EA27D1A62200E8B6C3 /* schema.json */; };
+		C67261ED27D1A6FD00E8B6C3 /* LaunchList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = C67261EC27D1A6FD00E8B6C3 /* LaunchList.graphql */; };
+		C67261F827D1A7B500E8B6C3 /* Types.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67261F627D1A7B500E8B6C3 /* Types.graphql.swift */; };
+		C67261F927D1A7B500E8B6C3 /* LaunchList.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67261F727D1A7B500E8B6C3 /* LaunchList.graphql.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22F66866A7E61538DFD27EEB /* Pods-ExApolloApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExApolloApp.release.xcconfig"; path = "Target Support Files/Pods-ExApolloApp/Pods-ExApolloApp.release.xcconfig"; sourceTree = "<group>"; };
+		2D025DC9BFA4AE1E137470C2 /* Pods-ExApolloApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExApolloApp.debug.xcconfig"; path = "Target Support Files/Pods-ExApolloApp/Pods-ExApolloApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8F1810DD500AC0B8673C0BD2 /* Pods_ExApolloApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExApolloApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67261CE27D1A4CB00E8B6C3 /* ExApolloApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExApolloApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67261D127D1A4CB00E8B6C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C67261D327D1A4CB00E8B6C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		C67261DA27D1A4CD00E8B6C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C67261DD27D1A4CD00E8B6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C67261DF27D1A4CD00E8B6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C67261EA27D1A62200E8B6C3 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		C67261EC27D1A6FD00E8B6C3 /* LaunchList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LaunchList.graphql; sourceTree = "<group>"; };
+		C67261F627D1A7B500E8B6C3 /* Types.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.graphql.swift; sourceTree = "<group>"; };
+		C67261F727D1A7B500E8B6C3 /* LaunchList.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchList.graphql.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14DCCB6B115827D675B0ADAD /* Pods_ExApolloApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3038977EDA8A8C6A97806E17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D025DC9BFA4AE1E137470C2 /* Pods-ExApolloApp.debug.xcconfig */,
+				22F66866A7E61538DFD27EEB /* Pods-ExApolloApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C67261C527D1A4CB00E8B6C3 = {
 			isa = PBXGroup;
 			children = (
 				C67261D027D1A4CB00E8B6C3 /* ExApolloApp */,
 				C67261CF27D1A4CB00E8B6C3 /* Products */,
+				3038977EDA8A8C6A97806E17 /* Pods */,
+				DF28631C3A44F9D15483728E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +80,7 @@
 		C67261D027D1A4CB00E8B6C3 /* ExApolloApp */ = {
 			isa = PBXGroup;
 			children = (
+				C67261E927D1A54100E8B6C3 /* Network */,
 				C67261D127D1A4CB00E8B6C3 /* AppDelegate.swift */,
 				C67261D327D1A4CB00E8B6C3 /* SceneDelegate.swift */,
 				C67261D527D1A4CB00E8B6C3 /* ViewController.swift */,
@@ -67,6 +92,25 @@
 			path = ExApolloApp;
 			sourceTree = "<group>";
 		};
+		C67261E927D1A54100E8B6C3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C67261EA27D1A62200E8B6C3 /* schema.json */,
+				C67261EC27D1A6FD00E8B6C3 /* LaunchList.graphql */,
+				C67261F727D1A7B500E8B6C3 /* LaunchList.graphql.swift */,
+				C67261F627D1A7B500E8B6C3 /* Types.graphql.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DF28631C3A44F9D15483728E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F1810DD500AC0B8673C0BD2 /* Pods_ExApolloApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C67261E227D1A4CD00E8B6C3 /* Build configuration list for PBXNativeTarget "ExApolloApp" */;
 			buildPhases = (
+				9148F2D0438EF5F4DBB0F587 /* [CP] Check Pods Manifest.lock */,
+				C67261E627D1A51B00E8B6C3 /* Generate Apollo GeaphQL  */,
 				C67261CA27D1A4CB00E8B6C3 /* Sources */,
 				C67261CB27D1A4CB00E8B6C3 /* Frameworks */,
 				C67261CC27D1A4CB00E8B6C3 /* Resources */,
+				FF94D59CF627E0387A4DC847 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,20 +172,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67261EB27D1A62200E8B6C3 /* schema.json in Resources */,
 				C67261DE27D1A4CD00E8B6C3 /* LaunchScreen.storyboard in Resources */,
 				C67261DB27D1A4CD00E8B6C3 /* Assets.xcassets in Resources */,
 				C67261D927D1A4CB00E8B6C3 /* Main.storyboard in Resources */,
+				C67261ED27D1A6FD00E8B6C3 /* LaunchList.graphql in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9148F2D0438EF5F4DBB0F587 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExApolloApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67261E627D1A51B00E8B6C3 /* Generate Apollo GeaphQL  */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GeaphQL ";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Don't run this during index builds\nif [ $ACTION = \"indexbuild\" ]; then exit 0; fi\n\nSCRIPT_PATH=\"${PODS_ROOT}/Apollo/scripts\"\n\n#\"${SCRIPT_PATH}\"/run-bundled-codegen.sh schema:download --endpoint=\"https://apollo-fullstack-tutorial.herokuapp.com/graphql\" ExApolloApp/Network/schema.json\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"Network/schema.json\" Network\n";
+		};
+		FF94D59CF627E0387A4DC847 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExApolloApp/Pods-ExApolloApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExApolloApp/Pods-ExApolloApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExApolloApp/Pods-ExApolloApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C67261CA27D1A4CB00E8B6C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67261F827D1A7B500E8B6C3 /* Types.graphql.swift in Sources */,
 				C67261D627D1A4CB00E8B6C3 /* ViewController.swift in Sources */,
+				C67261F927D1A7B500E8B6C3 /* LaunchList.graphql.swift in Sources */,
 				C67261D227D1A4CB00E8B6C3 /* AppDelegate.swift in Sources */,
 				C67261D427D1A4CB00E8B6C3 /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +395,7 @@
 		};
 		C67261E327D1A4CD00E8B6C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D025DC9BFA4AE1E137470C2 /* Pods-ExApolloApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +424,7 @@
 		};
 		C67261E427D1A4CD00E8B6C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F66866A7E61538DFD27EEB /* Pods-ExApolloApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

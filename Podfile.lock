@@ -1,0 +1,22 @@
+PODS:
+  - Apollo (0.50.0):
+    - Apollo/Core (= 0.50.0)
+  - Apollo/Core (0.50.0)
+  - Kingfisher (7.1.2)
+
+DEPENDENCIES:
+  - Apollo
+  - Kingfisher
+
+SPEC REPOS:
+  trunk:
+    - Apollo
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  Apollo: 5e4476a3236bd576686085b7cd99655c788e4d74
+  Kingfisher: 44ed6a8504763f27bab46163adfac83f5deb240c
+
+PODFILE CHECKSUM: 7bf75ac176f50b0aa621997476f111943271a99e
+
+COCOAPODS: 1.11.2
