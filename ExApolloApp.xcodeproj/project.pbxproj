@@ -17,7 +17,8 @@
 		C67261EB27D1A62200E8B6C3 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = C67261EA27D1A62200E8B6C3 /* schema.json */; };
 		C67261ED27D1A6FD00E8B6C3 /* LaunchList.graphql in Resources */ = {isa = PBXBuildFile; fileRef = C67261EC27D1A6FD00E8B6C3 /* LaunchList.graphql */; };
 		C67261F827D1A7B500E8B6C3 /* Types.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67261F627D1A7B500E8B6C3 /* Types.graphql.swift */; };
-		C67261F927D1A7B500E8B6C3 /* LaunchList.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67261F727D1A7B500E8B6C3 /* LaunchList.graphql.swift */; };
+		C67261FB27D1AEA200E8B6C3 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67261FA27D1AEA200E8B6C3 /* Network.swift */; };
+		C67261FF27D1D7F700E8B6C3 /* LaunchList.graphql.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67261FE27D1D7F700E8B6C3 /* LaunchList.graphql.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +36,8 @@
 		C67261EA27D1A62200E8B6C3 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		C67261EC27D1A6FD00E8B6C3 /* LaunchList.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = LaunchList.graphql; sourceTree = "<group>"; };
 		C67261F627D1A7B500E8B6C3 /* Types.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.graphql.swift; sourceTree = "<group>"; };
-		C67261F727D1A7B500E8B6C3 /* LaunchList.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchList.graphql.swift; sourceTree = "<group>"; };
+		C67261FA27D1AEA200E8B6C3 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		C67261FE27D1D7F700E8B6C3 /* LaunchList.graphql.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchList.graphql.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 			children = (
 				C67261EA27D1A62200E8B6C3 /* schema.json */,
 				C67261EC27D1A6FD00E8B6C3 /* LaunchList.graphql */,
-				C67261F727D1A7B500E8B6C3 /* LaunchList.graphql.swift */,
+				C67261FE27D1D7F700E8B6C3 /* LaunchList.graphql.swift */,
 				C67261F627D1A7B500E8B6C3 /* Types.graphql.swift */,
+				C67261FA27D1AEA200E8B6C3 /* Network.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -248,8 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C67261F827D1A7B500E8B6C3 /* Types.graphql.swift in Sources */,
+				C67261FF27D1D7F700E8B6C3 /* LaunchList.graphql.swift in Sources */,
 				C67261D627D1A4CB00E8B6C3 /* ViewController.swift in Sources */,
-				C67261F927D1A7B500E8B6C3 /* LaunchList.graphql.swift in Sources */,
+				C67261FB27D1AEA200E8B6C3 /* Network.swift in Sources */,
 				C67261D227D1A4CB00E8B6C3 /* AppDelegate.swift in Sources */,
 				C67261D427D1A4CB00E8B6C3 /* SceneDelegate.swift in Sources */,
 			);

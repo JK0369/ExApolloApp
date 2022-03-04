@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-ExApolloApp/Pods-ExApolloApp-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Apollo/Apollo.framework
 ${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

@@ -5,4 +5,5 @@ target 'ExApolloApp' do
   use_frameworks!
   pod 'Apollo'
   pod 'Kingfisher'
+  pod 'SnapKit'
 end
